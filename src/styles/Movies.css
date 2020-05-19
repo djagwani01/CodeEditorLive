@@ -1,0 +1,46 @@
+.movieList{
+    border: 1px solid black;
+    width: 98%;
+    height: 300px;
+    margin: 100px 20px 10px 20px;
+}
+
+img{
+    margin: 10px 20px 0px 20px;
+    width: 200px;
+    height: 250px;
+}
+
+.row{
+    display: flex;
+    margin: 10px 0px
+}
+
+.column{
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.title{
+    width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    float: right;
+    color: teal;
+}
+
+h2#recomMov{
+    color: darkgoldenrod;
+    display: flex;
+    margin: 100px 0px 20px 30px;
+}
+
+.overview{
+    float: right;
+    clear: right;
+    width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
